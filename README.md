@@ -125,7 +125,7 @@ A knowledge base config. Drop it as `CLAUDE.md` in a research or notes project. 
 
 ```bash
 # new wiki project
-cp CLAUDE-wiki.md /your/wiki/CLAUDE.md
+curl -o CLAUDE.md https://github.com/Moonipur/claude_code_reasoning_optimization/blob/main/LLM%20Wiki/CLAUDE.md
 mkdir -p /your/wiki/{raw/{articles,papers,notes,assets},wiki/{entities,concepts,sources},.claude}
 
 # then bootstrap
