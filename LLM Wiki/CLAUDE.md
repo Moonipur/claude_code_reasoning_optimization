@@ -48,7 +48,6 @@ second-brain/                   ← Obsidian vault root
 │       │   └── sources/
 │       └── raw/                ← immutable sources for this project
 │           ├── articles/
-│           ├── papers/
 │           └── assets/
 │
 ├── personal/                   ← PERSONAL WIKI — journals, goals, health
