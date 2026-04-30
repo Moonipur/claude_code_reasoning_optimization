@@ -77,7 +77,7 @@ A lean coding assistant config. Drop it as `CLAUDE.md` in any code project.
 
 ```bash
 # new project
-cp CLAUDE-coding.md /your/project/CLAUDE.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/Moonipur/claude_code_reasoning_optimization/main/Reasoning/CLAUDE.md
 mkdir -p /your/project/.claude
 
 # existing project (append)
@@ -188,20 +188,6 @@ Open the project root as an Obsidian vault. The wiki uses `[[wikilinks]]` native
 **The Karpathy reasoning principles fill a gap.** Our execution protocol (step-by-step, permission-gated, logged) governs *how Claude acts*. The Karpathy principles govern *how Claude thinks before acting*. Neither replaces the other.
 
 **Treat CLAUDE.md like code.** Review it when Claude gets things wrong. Prune rules Claude already follows. Test changes by observing behavior, not by reading the file.
-
----
-
-## Install
-
-Reasoning:
-```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/Moonipur/claude_code_reasoning_optimization/main/Reasoning/CLAUDE.md
-```
-
-LLM Wiki:
-```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/Moonipur/claude_code_reasoning_optimization/main/LLM wiki/CLAUDE.md
-```
 
 ---
 
